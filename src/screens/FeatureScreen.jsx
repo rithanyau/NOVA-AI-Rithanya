@@ -27,7 +27,7 @@ function FeatureScreen({ feature, setScreen }) {
     setIsLoading(true)
 
     try {
-      const response = await fetch("https://nova-ai-rithanya-backend.onrender.com", {
+     const response = await fetch("https://nova-ai-rithanya-backend.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
